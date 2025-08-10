@@ -1,0 +1,58 @@
+[
+    {
+        "id": "TC-001",
+        "description": "Verify form submitted without (USERNAME)",
+        "username": "",
+        "password": "incorrect_password",
+        "expectedMessage": "Epic sadface: Username is required"
+    },
+    {
+        "id": "TC-002",
+        "description": "Verify form submitted without (PASSWORD)",
+        "username": "standard_user",
+        "password": "",
+        "expectedMessage": "Epic sadface: Password is required"
+    },
+    {
+        "id": "TC-003",
+        "description": "Verify form submitted without (USERNAME) / (PASSWORD)",
+        "username": "",
+        "password": "",
+        "expectedMessage": "Epic sadface: Username is required"
+    },
+    {
+        "id": "TC-004",
+        "description": "Verify that the form can be submitted with (INCORRECT - USERNAME)",
+        "username": "incorrect_username",
+        "password": "secret_sauce",
+        "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+        "id": "TC-005",
+        "description": "Verify that the form can be submitted with (INCORRECT - PASSWORD)",
+        "username": "standard_user",
+        "password": "incorrect_password",
+        "expectedMessage": "Epic sadface: Username and password do not match any user in this service"
+    },
+    {
+        "id": "TC-006",
+        "description": "Verify that the form can be submitted with (LOCKED - USER)",
+        "username": "locked_out_user",
+        "password": "secret_sauce",
+        "expectedMessage": "Epic sadface: Sorry, this user has been locked out."
+    },
+    {
+        "id": "TC-007",
+        "description": "Verify that the form can be submitted with (PROBLEM - USER)",
+        "username": "problem_user", 
+        "password": "secret_sauce",
+        "expectedMessage": "Products"
+    },
+    {
+        "id": "TC-008",
+        "description": "Verify that the form can be submitted successfully",
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "expectedMessage": "Products"
+    }
+]

@@ -1,0 +1,38 @@
+[
+    {   
+        "firstName": "Laura",
+        "lastName": "Taylor",
+        "email": "laura.taylor1234@example.com",
+        "phone": "1234567890",
+        "gender": "Female",
+        "dateOfBirth": {
+            "month": "January",
+            "year": "1995",
+            "day": "15"
+        },
+        "subjects": ["Maths", "English", "Physics"],
+        "hobbies": ["Sports", "Reading"],
+        "picture": "/Users/gdelanieve/Downloads/1744691546049.jpeg",
+        "address": "123 Main St, Springfield, USA",
+        "state": "Uttar Pradesh",
+        "city": "Merrut"
+    },
+    {   
+        "firstName": "Gabriel",
+        "lastName": "De la nieve",
+        "email": "gdelanieve@example.com",
+        "phone": "1234567890",
+        "gender": "Male",
+        "dateOfBirth": {
+            "month": "January",
+            "year": "1995",
+            "day": "15"
+        },
+        "subjects": ["Maths", "English", "Physics"],
+        "hobbies": ["Sports", "Reading"],
+        "picture": "/Users/gdelanieve/Downloads/1744691546049.jpeg",
+        "address": "123 Main St, Springfield, USA",
+        "state": "Haryana",
+        "city": "Panipat"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "products": [
+            {
+                "title": "Sauce Labs Backpack",
+                "description": "carry.allTheThings() with the sleek, streamlined Sly Pack that melds uncompromising style with unequaled laptop and tablet protection.",
+                "price": 29.99,
+                "category": "Backpacks"
+            },
+            {
+                "title": "Sauce Labs Fleece Jacket",
+                "description": "It's not every day that you come across a midweight quarter-zip fleece jacket capable of handling everything from a relaxing day outdoors to a busy day at the office.",
+                "price": 49.99,
+                "category": "Jackets"
+            },
+            {
+                "title": "Sauce Labs Onesie",
+                "description": "Rib snap infant onesie for the junior automation engineer in development. Reinforced 3-snap bottom closure, two-needle hemmed sleeved and bottom won't unravel.",
+                "price": 7.99,
+                "category": "Onesies"
+            }
+        ]
+    },
+    {
+        "username": "standard_user",
+        "password": "secret_sauce",
+        "products": [
+            {
+                "title": "Sauce Labs Bike Light",
+                "description": "A red light isn't the only thing that will keep you safe on your bike. The Sauce Labs Bike Light is a great way to stay visible.",
+                "price": 9.99,
+                "category": "Bike Lights"
+            },
+            {
+                "title": "Sauce Labs Bolt T-Shirt",
+                "description": "Get your Sauce Labs Bolt T-Shirt and show your support for the Sauce Labs community.",
+                "price": 15.99,
+                "category": "T-Shirts"
+            },
+            {
+                "title": "Test.allTheThings() T-Shirt (Red)",
+                "description": "This is a red t-shirt with the text 'Test.allTheThings()' printed on it. Perfect for those who love testing and automation.",
+                "price": 15.99,
+                "category": "T-Shirts"
+            }
+        ]
+    }
+]

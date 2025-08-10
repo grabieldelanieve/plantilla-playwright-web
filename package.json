@@ -1,0 +1,22 @@
+{
+  "name": "plantilla-typescript-web",
+  "version": "1.0.0",
+  "description": "plantilla para automatizacion web con playwright - typescript - test ",
+  "main": "index.js",
+  "scripts": {
+    "test": "npx playwright test --headed --project=chromium --workers=1",
+    "form:headed": "npx playwright test src/test/feature/form.spec.ts --headed --project=chromium --workers=1",
+    "login:headed": "npx playwright test src/test/feature/login.spec.ts --headed --project=chromium --workers=1",
+    "product:headed": "npx playwright test src/test/feature/product.spec.ts --headed --project=chromium --workers=1"
+  },
+  "author": "Grabiel De La Nieve",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^9.9.0",
+    "@playwright/test": "^1.54.1",
+    "@types/node": "^24.2.0",
+    "allure-playwright": "^3.3.2",
+    "csv-parse": "^6.1.0",
+    "xlsx": "^0.18.5"
+  }
+}
